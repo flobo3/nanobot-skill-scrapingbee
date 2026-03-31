@@ -1,11 +1,13 @@
 ---
 name: scrapingbee-fetch
-description: Fetch and render JavaScript-heavy or bot-protected websites using ScrapingBee API. Returns clean Markdown.
+description: Advanced JavaScript web page renderer using ScrapingBee API. Extracts main content and returns clean Markdown.
+requires:
+  - ENV: SCRAPINGBEE_API_KEY
 ---
 
-# ScrapingBee Fetch OSS
+# ScrapingBee Fetch
 
-Use this skill to bypass bot protection (Cloudflare, DataDome, etc.) and render JavaScript on target websites. It extracts the main content and returns it as clean Markdown optimized for LLM reading.
+Use this skill to render JavaScript on target websites and extract the main content. It returns clean Markdown optimized for LLM reading.
 
 ## Setup
 
